@@ -29,6 +29,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/white"
+                    android:id="@+id/cardBtn_detailProfile"
                     app:cardCornerRadius="18dp">
 
                 <RelativeLayout
@@ -216,6 +217,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
+                            android:id="@+id/layoutBtn_ubahPassword"
                             android:orientation="horizontal">
 
                         <ImageView
@@ -227,36 +229,12 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="24dp"
-                                android:text="Pujianto s.pd"
+                                android:text="Ubah Password"
                                 android:textStyle="bold"/>
 
                     </LinearLayout>
 
-                    <View
-                            android:layout_width="match_parent"
-                            android:layout_height="2dp"
-                            android:layout_marginVertical="8dp"
-                            android:background="@color/gray"/>
 
-                    <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:gravity="center_vertical"
-                            android:orientation="horizontal">
-
-                        <ImageView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_bug"/>
-
-                        <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="24dp"
-                                android:textStyle="bold"
-                                android:text="puji@gmail.com"/>
-
-                    </LinearLayout>
 
                     <View
                             android:layout_width="match_parent"

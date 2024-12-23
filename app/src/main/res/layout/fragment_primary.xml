@@ -118,6 +118,7 @@
                             android:layout_height="52dp"
                             android:padding="7dp"
                             android:background="@color/white"
+                            android:id="@+id/cardBtn_Rekap"
                             app:cardCornerRadius="8dp">
 
                         <ImageView
@@ -150,6 +151,7 @@
                             android:layout_height="52dp"
                             android:padding="7dp"
                             android:background="@color/white"
+                            android:id="@+id/cardBtn_kehadiran"
                             app:cardCornerRadius="8dp">
 
                         <ImageView
