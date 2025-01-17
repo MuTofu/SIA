@@ -83,6 +83,7 @@
                     <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:id="@+id/layout_btnRekapNilai10"
                             android:gravity="center_vertical"
                             android:orientation="horizontal">
 
@@ -124,6 +125,7 @@
                     <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:id="@+id/layout_btnRekapNilai11"
                             android:gravity="center_vertical"
                             android:orientation="horizontal">
 
@@ -166,6 +168,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
+                            android:id="@+id/layout_btnRekapNilai12"
                             android:orientation="horizontal">
 
                         <TextView
